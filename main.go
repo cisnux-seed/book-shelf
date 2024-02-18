@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	_ "github.com/cisnux-seed/book-shelf/repository"
+	"github.com/cisnux-seed/book-shelf/view"
+)
 
 func main() {
-	fmt.Println("Run Application")
+	view.PrintMenu()
 }
